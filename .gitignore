@@ -7,3 +7,9 @@ target
 /.project
 /.settings
 /RUNNING_PID
+/.metals
+/.history
+/.bloop
+/.bsp
+/.vscode
+/.g8
