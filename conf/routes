@@ -3,6 +3,13 @@
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
 
+# Tickets
+GET     /api/v1/tickets              controllers.TicketsController.findAll()
+GET     /api/v1/tickets/:id          controllers.TicketsController.findOne(id: String)
+POST    /api/v1/tickets/             controllers.TicketsController.create()
+PUT     /api/v1/tickets/:id          controllers.TicketsController.update(id: String)
+DELETE  /api/v1/tickets/:id          controllers.TicketsController.delete(id: String)
+
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index()
 
