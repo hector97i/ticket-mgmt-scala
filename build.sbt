@@ -18,6 +18,7 @@ libraryDependencies ++= Seq(
     "org.reactivemongo" %% "reactivemongo-bson-compat" % "0.20.13",
     // Provide JSON serialization for Joda-Time
     "com.typesafe.play" %% "play-json-joda" % "2.7.4",
+    "org.reactivemongo" %% "reactivemongo-play-json" % "0.20.13-play27",
 )
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "nimbustech.controllers._"
